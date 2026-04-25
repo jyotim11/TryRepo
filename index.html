@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti Maurya - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#top" class="logo" style="text-decoration: none; color: inherit;">JM<span class="neon-text">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero fade-in">
+            <div class="hero-layout">
+                <div class="hero-content">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 id="hero-name" class="neon-title"></h1>
+                    <h2 id="hero-role" class="neon-subtitle"></h2>
+                    <p id="hero-summary" class="summary-text"></p>
+                    <div class="hero-actions">
+                        <a href="Jyoti_Maurya.pdf" download class="neon-btn primary">Download Resume</a>
+                        <a href="#experience" class="neon-btn secondary">View Work</a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <img src="profile.jpg" alt="Profile Image" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Contact Section -->
+        <section id="about" class="section fade-in">
+            <h2 class="section-title">Contact & <span class="neon-text">Info</span></h2>
+            <div class="about-grid">
+                <div class="info-card">
+                    <h3>Contact Details</h3>
+                    <ul class="info-list">
+                        <li><span class="label">Email:</span> <span id="info-email" class="value neon-hover"></span></li>
+                        <li><span class="label">Phone:</span> <span id="info-phone" class="value neon-hover"></span></li>
+                        <li><span class="label">Location:</span> <span id="info-location" class="value"></span></li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Languages</h3>
+                    <div id="info-languages" class="tag-container"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section fade-in">
+            <h2 class="section-title">Core <span class="neon-text">Skills</span></h2>
+            <div id="skills-grid" class="skills-grid"></div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section fade-in">
+            <h2 class="section-title">Work <span class="neon-text">Experience</span></h2>
+            <div id="experience-timeline" class="timeline"></div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section fade-in">
+            <h2 class="section-title">Education <span class="neon-text">Background</span></h2>
+            <div id="education-grid" class="education-grid"></div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <p>&copy; <span id="current-year"></span> Jyoti Maurya. Designed with Neon Vibes.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
