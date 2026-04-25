@@ -71,7 +71,7 @@ const PORTFOLIO_DATA = {
             degree: "B.Sc Information Technology",
             institution: "Vivekanand Education Society's College of Arts, Science & Commerce",
             location: "Mumbai",
-            duration: ""
+            duration: "2019 - 2022"
         }
     ]
 };
