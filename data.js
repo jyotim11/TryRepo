@@ -25,19 +25,44 @@ const PORTFOLIO_DATA = {
             role: "PMO",
             company: "Capgemini",
             location: "Airoli, Maharashtra",
-            duration: "7th July 2022 - Present",
+            duration: "July 2025 - Present",
+            skills: ["Demand Management", "Financial Reporting", "Stakeholder Management"],
             responsibilities: [
-                "Managed end-to-end interview coordination: gathered weekday/weekend panel availability, aligned slots with TA, and ensured smooth scheduling.",
-                "Took full ownership of BH-specific onboarding post-transition; executed structured steps including template communication, tracker updates, PID allocation.",
-                "Handled complete offboarding lifecycle by confirming releases, updating resumes and trackers, notifying stakeholders, and maintaining documentation.",
-                "Initiated and monitored BH-specific Background Verification (BGV); tracked cases to timely closure.",
-                "Prepared monthly incentive reports for panel members; maintained accurate new-joiner and directory/resource lists.",
-                "Prepared weekly headcount reports and monthly forecast updates to keep resource data accurate.",
-                "Shared monthly BTO (Back-to-Office) compliance lists with stakeholders.",
-                "Managed end-to-end demand on the GTD Portal, coordinating with stakeholders for demand creation, updates and closures.",
-                "Streamlined onboarding/offboarding and directory update workflows, improving turnaround time.",
-                "Partnered with TA, RMG, project managers, and BH stakeholders to remove blockers.",
-                "Managed end-to-end monthly invoice creation, including data validation, billing calculations, and invoice generation."
+                "Managed end-to-end demand on the GTD Portal and invoice creation, ensuring accurate data validation and timely client billing.",
+                "Partnered strategically with TA, RMG, and project managers to remove operational blockers, ensuring smooth project delivery across all accounts."
+            ]
+        },
+        {
+            role: "PMO",
+            company: "Capgemini",
+            location: "Airoli, Maharashtra",
+            duration: "July 2024 - July 2025",
+            skills: ["Process Optimization", "Resource Management", "Data Analytics"],
+            responsibilities: [
+                "Streamlined onboarding and offboarding workflows, significantly improving turnaround time and communication quality across the organization.",
+                "Prepared comprehensive weekly headcount and monthly forecast reports, providing leadership with accurate resource data for capacity planning."
+            ]
+        },
+        {
+            role: "PMO",
+            company: "Capgemini",
+            location: "Airoli, Maharashtra",
+            duration: "July 2023 - July 2024",
+            skills: ["Compliance Monitoring", "Onboarding Operations", "Background Verification"],
+            responsibilities: [
+                "Took full ownership of post-transition onboarding and background verification (BGV), tracking cases to timely closures and ensuring strict compliance.",
+                "Shared monthly Back-to-Office (BTO) compliance lists and managed incentive reports, improving overall team adherence to corporate policies."
+            ]
+        },
+        {
+            role: "PMO",
+            company: "Capgemini",
+            location: "Airoli, Maharashtra",
+            duration: "July 2022 - July 2023",
+            skills: ["Interview Coordination", "Documentation", "Stakeholder Communication"],
+            responsibilities: [
+                "Managed end-to-end interview coordination by aligning slots with Talent Acquisition and ensuring seamless scheduling for candidates and panels.",
+                "Handled the complete offboarding lifecycle, maintaining accurate documentation and notifying all relevant stakeholders efficiently."
             ]
         }
     ],

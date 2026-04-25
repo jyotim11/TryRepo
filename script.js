@@ -62,6 +62,15 @@ function populatePortfolio(data) {
         const item = document.createElement('div');
         item.className = 'timeline-item';
         
+        let skillsHtml = '';
+        if (exp.skills) {
+            skillsHtml = '<div class="timeline-skills">';
+            exp.skills.forEach(skill => {
+                skillsHtml += `<span class="tag small-tag">${skill}</span>`;
+            });
+            skillsHtml += '</div>';
+        }
+
         let tasksHtml = '';
         exp.responsibilities.forEach(task => {
             tasksHtml += `<li>${task}</li>`;
@@ -77,6 +86,7 @@ function populatePortfolio(data) {
                     </div>
                     <div class="timeline-date">${exp.duration}</div>
                 </div>
+                ${skillsHtml}
                 <ul class="timeline-tasks">
                     ${tasksHtml}
                 </ul>
